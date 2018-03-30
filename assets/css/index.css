@@ -1,0 +1,350 @@
+/**  COVER PHOTO **/
+
+html,
+body {
+    color: white;
+    background-color: #fffdfd;
+}
+
+div#cover-photo {
+    background: url(../images/profile-bg-top.jpg) repeat-x center top;
+    height: 300px;
+    position: relative;
+}
+
+div.profile-picture img {
+    height: 200px;
+    margin-top: 170px;
+}
+
+
+/*** BASIC INFO ***/
+
+#basic-info .row {
+    margin-bottom: 0;
+}
+
+#basic-info button {
+    margin-top: 10px;
+}
+
+#basic-info .btn {
+    background-color: #007ad4;
+}
+
+#basic-info .btn:hover {
+    background-color: #338cff
+}
+
+#basic-info i {
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+
+/**BASIC INFO HEADER**/
+
+.basic-info-header .l1 {
+    margin-right: 10px;
+}
+
+div.basic-info-header {
+    background-color: #007CB2;
+    height: 55px;
+}
+
+div.basic-info-header h5,
+{
+    margin: auto 0;
+}
+
+
+/***BASIC INFO DETAILS***/
+
+div.basic-info-details {
+    margin-top: 30px;
+}
+
+.basic-info-details-title {
+    background-color: #007CB2;
+    width: 100%;
+    text-align: center;
+}
+
+.basic-info-details-title h4 {
+    padding: 15px;
+}
+
+.my-info i {
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+.my-info h5 {
+    margin-top: 25px;
+}
+
+
+/** OJT PREFERENCES **/
+
+.ojt-title h5 i {
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+.ojt-title {
+    background-color: #007CB2;
+    color: white;
+}
+
+.ojt-title h4 {
+    padding: 10px;
+    text-align: center;
+}
+
+.ojt-title h5 {
+    padding: 10px;
+}
+
+.ojt-title i {
+    font-size: 2.28rem;
+}
+
+.ojt-content {
+    margin-bottom: 10px;
+}
+
+.ojt-content .s12 {
+    margin-top: 10px;
+}
+
+.ojt-img {
+    width: 30%;
+    float: left;
+}
+
+.ojt-img img {
+    height: 80px;
+}
+
+.ojt-description {
+    width: 70%;
+    float: right;
+    line-height: 10px;
+    margin-top: 15px;
+}
+
+.ojt-description span {
+    color: grey;
+}
+
+
+/** END OJT PREFERENCES **/
+
+
+/***END BASIC-INFO***/
+
+
+/**SKILLS and ACHIEVEMENT**/
+
+
+/**skill**/
+
+#schools-skills-and-supplemental .row {
+    margin-bottom: 0;
+}
+
+#schools-skills-and-supplemental .l7 {
+    padding: 0;
+}
+
+#schools-skills-and-supplemental i {
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+
+/** START SCHOOL **/
+
+#schools-skills-and-supplemental .schools.col {
+    padding: 0;
+}
+
+.schools-title {
+    background-color: #007CB2;
+    width: 61%;
+    text-align: left;
+}
+
+@media only screen and (max-width: 992px) {
+    .schools-title {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.schools-title h4 {
+    padding: 10px;
+}
+
+.schools-title h5 {
+    padding: 10px;
+}
+
+.schools-title i {
+    font-size: 2.28rem;
+}
+
+.schools-content {
+    margin-bottom: 0;
+}
+
+.schools-content.col {
+    padding-left: 0;
+}
+
+.schools-description {
+    margin-bottom: 14px;
+    line-height: 15px;
+}
+
+.schools-description a {
+    color: white;
+}
+
+.schools-description i {
+    font-size: 25px;
+    padding: 10px;
+    background-color: #00C853;
+}
+
+.schools-description .school-name {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.schools-description .school-year,
+.schools-description .school-location {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+/**END SCHOOLS and COURSES **/
+
+.skills.col {
+    padding-left: 0;
+}
+
+.skills-collapse.col {
+    padding: 0;
+}
+
+.skills-collapse .collapsible {
+    margin-top: 0;
+}
+
+.skills-title {
+    background-color: #007CB2;
+    width: 61%;
+    text-align: left;
+}
+
+@media only screen and (max-width: 992px) {
+    .skills-title {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.skills-title h4 {
+    padding: 10px;
+}
+
+.skills-title h5 {
+    padding: 10px;
+}
+
+.skills-title i {
+    font-size: 2.28rem;
+}
+
+#schools-skills-and-supplemental .card {
+    margin-bottom: 20px;
+}
+
+table.bordered .level i {
+    width: 25px;
+}
+
+#schools-skills-and-supplemental .verified-user {
+    padding: 10px;
+    color: white;
+    background-color: #03A9F4;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#schools-skills-and-supplementalrified-user i {
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+
+/**ACHIEVEMENTS**/
+
+.supplemental {
+    color: black;
+}
+
+.supplemental-title {
+    background-color: #007CB2;
+    width: 100%;
+    text-align: left;
+}
+
+@media only screen and (max-width: 992px) {
+    .supplemental-title {
+        text-align: center;
+    }
+}
+
+.supplemental-title h4 {
+    padding: 10px;
+}
+
+.supplemental-title h5 {
+    padding: 10px;
+}
+
+.supplemental-title i {
+    font-size: 2.28rem;
+}
+
+.supplemental h6 {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.supplemental-subtitle {
+    background-color: #007CB2;
+    padding: 3px;
+    color: white;
+    width: 70%;
+}
+
+@media only screen and (max-width: 992px) {
+    .supplemental-subtitle {
+        width: 50%;
+    }
+}
+
+.sub ol li {
+    font-size: 20px;
+}
+
+.sub ol li p {
+    margin: 5px 0;
+    font-size: 15px;
+}
